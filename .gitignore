@@ -1,0 +1,11 @@
+# vscode
+.vscode
+
+# Crash log files
+crash.log
+
+# Exclude the references folder
+references
+
+# Exclude .DS_Store
+**/.DS_Store
