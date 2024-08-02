@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- favicons -->
-<link rel="icon" type="image/png" href="https://s3.amazonaws.com/aldersonequine.com/assets/images/logo/Alderson_logo_white_on_blk_180x180.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://s3.amazonaws.com/aldersonequine.com/assets/images/logo/Alderson_logo_white_on_blk_180x180.png">
+<link rel="icon" type="image/png" href="./assets/images/oktoberfest/flagbayern180x180.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./assets/images/oktoberfest/flagbayern180x180.png">
 <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
 <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> -->
 <!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
@@ -46,23 +46,17 @@ body, html {
 /* Second image (lessons) */
 .bgimg-2 {
   /* background-image: url("https://s3.amazonaws.com/aldersonequine.com/assets/images/swanee/arena_riders.jpg"); */
-  background-image: url("./assets/images/oktoberfest/bavarianflagpattern.jpg");
+  background-image: url("./assets/images/oktoberfest/mapbayern.jpg");
   background-position: left 25% top 20%;
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("https://s3.amazonaws.com/aldersonequine.com/assets/images/swanee/iraq_iphone.jpeg");
-  /* background-image: url("./assets/images/swanee/iraq_iphone.jpeg"); */
-  background-position: left 25% top 20%;
-  min-height: 400px;
-}
+  /* background-image: url("https://s3.amazonaws.com/aldersonequine.com/assets/images/swanee/iraq_iphone.jpeg"); */
+  background-image: url("./assets/images/oktoberfest/bavarianflagpattern.jpg");
 
-.bgimg-4 {
-  background-image: url("https://s3.amazonaws.com/aldersonequine.com/assets/images/swanee/arena_cows.jpg");
-  /* background-image: url("./assets/images/swanee/arena_cows.jpg"); */
-  background-position: left 25% top 25%;
+  background-position: left 25% top 20%;
   min-height: 400px;
 }
 
@@ -88,37 +82,33 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa"></i> ABOUT</a>
-    <a href="#areas of expertise" class="w3-bar-item w3-button w3-hide-small"><i class="fa"></i>AREAS OF EXPERTISE</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa"></i> CONTACT</a>
-    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"> -->
-      <!-- <i class="fa fa-search"></i> -->
+    <a href="#location" class="w3-bar-item w3-button w3-hide-small"><i class="fa"></i>LOCATION</a>
+    <a href="#datetime" class="w3-bar-item w3-button w3-hide-small"><i class="fa"></i>DATE & TIME</a>
+    <a href="#rsvp" class="w3-bar-item w3-button w3-hide-small"><i class="fa"></i>RSVP</a>
     </a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#areas of expertise" class="w3-bar-item w3-button" onclick="toggleFunction()">AREAS OF EXPERTISE</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
+    <a href="#location" class="w3-bar-item w3-button" onclick="toggleFunction()">LOCATION</a>
+    <a href="#datetime" class="w3-bar-item w3-button" onclick="toggleFunction()">DATE & TIME</a>
+    <a href="#rsvp" class="w3-bar-item w3-button" onclick="toggleFunction()">RSVP</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container"></div>
-  <!-- <div class="w3-display-middle" style="white-space:pre-wrap;">
-    <span class="w3-xxlarge w3-text-white w3-wide">TIM ALDERSON</span>>
-  </div> -->
+<div class="bgimg-1 w3-display-container" id="home"></div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-white w3-container w3-padding-16" id="ALDERSON OKTOBERFEST">
+<div class="w3-content w3-white w3-container w3-padding-16" id="about">
   <h1 class="w3-center">ALDERSON OKTOBERFEST</h1>
   <h3>SATURDAY, SEPTEMBER 28TH</h3>
   <div class="w3-left-align">
     <h4>Herzlich Willkommen!</h4>
     <p>We are excited to invite you and your family to our Oktoberfest celebration! Join us for Bier, Brezeln, Bratwürste, Games, and Great Company.</p>
     <p>We'll have bratwurst, pretzels, and a variety of beverages for both adults and children. Lederhosen or dirndls not required, but welcome. There will be yard games and maybe fire.</p>
-    <p>Please RSVP by 14 September so we can make sure there's plenty of food and fun for everyone.</p>
+    <p>Please RSVP by 14 September so we can make sure there's plenty of food and fun for everyone. To RSVP simply send Kit a quick message/email. Please find the contact info below.</p>
     <p>We look forward to celebrating with you!</p>
     <p>Prost!</p>
     <p>The Alderson Family - Kit, Samantha, and Emmett</p>
@@ -135,10 +125,9 @@ body, html {
 </div>
 
 <div class="w3-display-container" id="datetime">
-  <div class="bgimg-2 w3-display-container w3-opacity-max" id="opacity"></div>
+  <div class="bgimg-3 w3-display-container w3-opacity-max" id="opacity"></div>
   <div class="w3-display-middle" id="child">
     <span class="w3-xxlarge w3-text-black w3-wide">DATE & TIME</span>
-    <h4>The Alderson House</h4>
     <p>September 28, 2024, 3:00 PM - 8:00 PM</p>
   </div>
 </div>
@@ -153,8 +142,7 @@ body, html {
 </div>
 
 <!-- Footer -->
-<!-- <footer  id="rsvp" class="w3-center w3-black w3-padding-64"> -->
-<footer id="rsvp" class="w3-center w3-white w3-padding-64">
+<footer id="rsvp" class="w3-center w3-black w3-padding-64">
   <div class="w3-section" id="about"></div>
     <h3 href="#w" class="w3-center">RSVP</h3>
     <p>1kalderson@gmail.com</p>
@@ -168,20 +156,6 @@ body, html {
   </div>
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 </footer>
-
-<!-- <footer  id="rsvp" class="w3-center w3-padding-64">
-  <div class="w3-section" id="about">
-    <h3 href="#w" class="w3-center">RSVP</h3>
-    <p>1kalderson@gmail.com</p>
-    <p>903-617-9740</p>
-  </div>
-
-  <div class="w3-xlarge w3-section">
-    <body class="w3-center"></body>
-    <h3 class="w3-center"></h3>
-  </div>
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-</footer> -->
 
 <script>
 // Modal Image Gallery
