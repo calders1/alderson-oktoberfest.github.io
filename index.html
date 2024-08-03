@@ -23,7 +23,8 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
-  color: #777;
+  /* color: #777; */
+  color: #000000;
   line-height: 1.8;
 }
 
@@ -37,15 +38,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  /* background-image: url("https://s3.amazonaws.com/aldersonequine.com/assets/images/swanee/lakeside.jpeg"); */
   background-image: url("./assets/images/oktoberfest/oktoberfestsign.png");
-  background-position: left 25% top 20%;
-  min-height: 100%;
+  background-position: left 25% top 40%;
+  min-height: 80%;
 }
 
 /* Second image (lessons) */
 .bgimg-2 {
-  /* background-image: url("https://s3.amazonaws.com/aldersonequine.com/assets/images/swanee/arena_riders.jpg"); */
   background-image: url("./assets/images/oktoberfest/mapbayern.jpg");
   background-position: left 25% top 20%;
   min-height: 400px;
@@ -53,9 +52,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  /* background-image: url("https://s3.amazonaws.com/aldersonequine.com/assets/images/swanee/iraq_iphone.jpeg"); */
   background-image: url("./assets/images/oktoberfest/bavarianflagpattern.jpg");
-
   background-position: left 25% top 20%;
   min-height: 400px;
 }
@@ -98,7 +95,7 @@ body, html {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container" id="home"></div>
+<div class="bgimg-1 w3-content w3-display-container" id="home"></div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-white w3-container w3-padding-16" id="about">
@@ -113,6 +110,7 @@ body, html {
     <p>Prost!</p>
     <p>The Alderson Family - Kit, Samantha, and Emmett</p>
   </div>
+<!-- </div> commenting out this div centers all following blocks ;) -->
 
 <!-- Second Parallax Image with lessons Text -->
 <div class="w3-display-container" id="location">
